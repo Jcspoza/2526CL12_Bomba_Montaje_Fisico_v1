@@ -199,3 +199,13 @@ Foto de altura máxima a al que el agua ya no circula = 118 cm
 | ------------------------------ | ------------------------- |
 
 ### CONCLUSIONES de caracterización
+
+---
+
+## 2-Comparación con un riego automático solar básico
+
+[Temporizador de riego con mini tuberías y potencia solar](https://vm.tiktok.com/ZNRbtEhAG/)
+
+
+
+- --> Se nos ha olvidado un sensor de que el recipiente tiene agua
