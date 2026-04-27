@@ -172,15 +172,18 @@ Grado de impermeabilidad: IP68
 
 En los dos siguientes videos se puede ver el funcionamiento ( sin tubo) a 3.3 volt y a 5.0 volt, usando una fuente de voltaje variable con limite de corriente
 
-[video a 3.3 volt](video_3_3v.mp4)
+video a 3.3 volt
+<video controls width="600">
+  <source src="video_3_3v.mp4" type="video/mp4">
+  Tu navegador no soporta video HTML5.
+</video>
+
 
 [video a 5.0 volt](video_5_0v.mp4)
 
 o este otro video corto a 5 volt
 
 https://github.com/user-attachments/assets/a39b6d37-9748-4f1c-8fe4-40d5a9bb93c6
-
-
 
 #### Caracterización de voltaje - amperios - bomba Aliexpres
 
