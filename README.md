@@ -172,11 +172,9 @@ Grado de impermeabilidad: IP68
 
 En los dos siguientes videos se puede ver el funcionamiento ( sin tubo) a 3.3 volt y a 5.0 volt, usando una fuente de voltaje variable con limite de corriente
 
-
 [Bomba de acuario para sistema de riego con PICO W - 3 3v - YouTube](https://youtu.be/X_0jZWPfRAw)
 
-
-[video a 5.0 volt](video_5_0v.mp4)
+[Bomba de acuario para sistema de riego con PICO W - 5.0 volt - YouTube](https://youtu.be/DHgVienK9Sk)
 
 o este otro video corto a 5 volt
 
@@ -190,5 +188,14 @@ https://github.com/user-attachments/assets/a39b6d37-9748-4f1c-8fe4-40d5a9bb93c6
 | 5.0 volt | 428 mA   |                |
 
 ### Pruebas de altura máxima a la que se eleva el agua
+
+Video de configuración del montaje
+
+[Bomba de acuario para sistema de riego con PICO W- Montaje para ver altura maxima - YouTube](https://youtube.com/shorts/1d3WkyyNLxg?feature=share)
+
+Foto de altura máxima a al que el agua ya no circula = 118 cm
+
+| ![](./montaje_altura_det2.jpg) | ![](./altura_limite2.jpg) |
+| ------------------------------ | ------------------------- |
 
 ### CONCLUSIONES de caracterización
