@@ -180,8 +180,8 @@ En los dos siguientes videos se puede ver el funcionamiento ( sin tubo) a 3.3 vo
 
 | Voltaje  | Amperios | Funcionamiento |
 | -------- | -------- | -------------- |
-| 3.3 volt |          |                |
-| 5.0 volt |          |                |
+| 3.3 volt | 263 mA   |                |
+| 5.0 volt | 428 mA   |                |
 
 ### Pruebas de altura máxima a la que se eleva el agua
 
