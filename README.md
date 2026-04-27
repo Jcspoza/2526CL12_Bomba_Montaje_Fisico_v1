@@ -176,6 +176,12 @@ En los dos siguientes videos se puede ver el funcionamiento ( sin tubo) a 3.3 vo
 
 [video a 5.0 volt](video_5_0v.mp4)
 
+o este otro video corto a 5 volt
+
+https://github.com/user-attachments/assets/a39b6d37-9748-4f1c-8fe4-40d5a9bb93c6
+
+
+
 #### Caracterización de voltaje - amperios - bomba Aliexpres
 
 | Voltaje  | Amperios | Funcionamiento |
