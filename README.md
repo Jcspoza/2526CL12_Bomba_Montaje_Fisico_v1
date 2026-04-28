@@ -200,12 +200,67 @@ Foto de altura máxima a al que el agua ya no circula = 118 cm
 
 ### CONCLUSIONES de caracterización
 
+1- A 5voltios el consumo es de 428 mA muy por debajo de la corriente máxima que aguanta un transistor BJC NPN S8050 ==> **no hay que usar el integrado del kit mejor el Transistor S8050**
+
+2- Las **macetas a regar han de estar a menos de 100 cms de altura respecto a la bomba**
+
 ---
 
 ## 2-Comparación con un riego automático solar básico
 
 [Temporizador de riego con mini tuberías y potencia solar](https://vm.tiktok.com/ZNRbtEhAG/)
 
-
-
 - --> Se nos ha olvidado un sensor de que el recipiente tiene agua
+
+---
+
+## 3-Montaje Físico - draft v1 : Bomba + Recipiente
+
+### 3.1 Conectores a usar : jack de audio M y H ?
+
+Tanto el motor con 2 cables como la sonda sensor de suelo con 3 cables, han de tener un conector tipo un enchufe macho a hembra para facilitar el montaje. He probado a usar conectores de audio tipo jack de 3.5 de 2 polos y 3 polos, que son baratos en la tienda de barquillo 15 : 0,70 eur por conector. (el mas barato) 
+
+**VA OK**
+
+### 3.2 Recipiente a usar :
+
+**Idea bote de detergente de 5L con tapa + serrar para meter bomba** ver foto
+
+Criterios:
+
+* Recipiente de **plástico** -> robusto + evitar filtraciones + facil de cortar y adaptar +,no conductor
+
+* **base ancha**
+
+* que **se pueda cerrar** con un tapón o similar para evitar que el agua estanca da se llene de mosquitos 
+
+--> un bidón de agua mineral de los de 5 a 8 litros estaría OK
+
+--> Yo he usado un bote de detergente liquido de 5L
+
+### 3.3 ¿Cómo medir nivel de agua sin añadir muchos cables?
+
+He probado con un sensor de humedad de suelo del tipo antiguo en 2 piezas 
+
+( añadir foto y referencia)
+
+* Funciona a 3,3 volt
+
+* Tiene una señal digital que se activa si las 2 puntas estan sumergidas en agua
+
+* Consume unos 3 mA ==> se puede alimentar por GPIO al mismo tiempo que el sensor de humedad de suelo y con el mismo GPIO
+
+**Todo esto quiere decir que solo necesitamos un cable ADICIONAL para la señal digital de SIN AGUA**
+
+### 3.4 Montaje cables v1
+
+Vamos a necesitar 6 cables
+
+| Lado PICO    | Lado deposito + maceta                         |
+| ------------ | ---------------------------------------------- |
+| GND          | GND sensor Hum Suelo + GND sensor hay Agua     |
+| GPIO21       | VCC sensor Hum suelo y VCC sensor hay agua     |
+| ADC0         | Señal sensor Hum suelo                         |
+| GPIO22       | DO digital output sensor hay Agua - Low activo |
+| +5 volt      | Motor 1-bomba agua                             |
+| Colector NPN | Motor 2 -bomba agua                            |
